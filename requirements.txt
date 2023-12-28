@@ -1,3 +1,4 @@
 PyInputPlus
 openpyxl
 requests
+pandas
