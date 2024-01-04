@@ -2,3 +2,4 @@ PyInputPlus
 openpyxl
 requests
 pandas
+matplotlib
