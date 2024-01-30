@@ -26,7 +26,7 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)   #訊息來會執行這裡
 def handle_message(event):
     print(event.message.text)
-    message = TextSendMessage(text=event.message.text)  #傳過來的文字
+    message = TextSendMessage(text="我在問你究竟是在說些什麼！")  #傳過來的文字
     line_bot_api.reply_message(event.reply_token, message)
 
 
