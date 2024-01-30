@@ -27,7 +27,7 @@ def callback():
 def handle_message(event):
     message = TextSendMessage(text=event.message.text)
     line_bot_api.reply_message(event.reply_token, message)
-
+    
 #使用gunicorn main:app，並不會執行以下的程式
 #if __name__ == "__main__":
     #print("Hello World")
